@@ -21,6 +21,6 @@ export default registerAs(
       migrations: [__dirname + '/../migrations/*{.ts,.js}'],
       logging: true,
       synchronize: true,
-      dropSchema: true,
+      // dropSchema: true,
     }) as TypeOrmModuleOptions,
 );
